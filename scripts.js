@@ -11,7 +11,7 @@ if (value >= 0) {
 	console.log ('Wynik ujemny');
 }
 
-if (value = 0) {
+if (value == 0) {
 	console.log ('Wynik równy zero');
 
 } else {
