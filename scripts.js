@@ -4,7 +4,7 @@ var a = 1,
 	value = (a * a) - (2 * a * b) + (b * b);
 console.log ('The current value is: ', value);
 
-if (value >= 0) {
+if (value > 0) {
 	console.log ('Wynik dodatni');
 
 } else {
