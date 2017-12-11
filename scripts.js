@@ -2,18 +2,16 @@
 var a = 1,
 	b = 2,
 	value = (a * a) - (2 * a * b) + (b * b);
-	console.log ('The current value is: ', value);
+	console.log('Wynik działania ', value);
 
 if (value > 0) {
-	console.log ('Wynik dodatni');
+	console.log('Wynik dodatni');
+
+} else if  (value < 0) {
+	console.log('Wynik ujemny');
 
 } else {
-	console.log ('Wynik ujemny');
+	console.log('Wynik równy zero');
+
 }
 
-if (value == 0) {
-	console.log ('Wynik równy zero');
-
-} else {
-	console.log ('Wynik nie jest równy zero');
-}
